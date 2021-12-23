@@ -5,7 +5,10 @@
     padding: 0;
     margin: 0;
 }
-
+html{
+    font-family: 'Georama';
+    font-size: 62.5%;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -32,4 +35,19 @@
 .calculator-keypad{
     display: flex;
     width: 100%;
+}
+
+.keypad-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.keypad-button{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid grey;
 }
