@@ -25,6 +25,7 @@ html{
 }
 
 .calculator-display{
+    font-size: 20px;
     padding: 25px 15px;
     width: 100%;
     text-align: right;
@@ -44,6 +45,7 @@ html{
 }
 
 .keypad-button{
+    font-size: 20px;
     width: 25%;
     padding: 15px 0;
     text-align: center;
