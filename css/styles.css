@@ -45,6 +45,7 @@ html{
 }
 
 .keypad-button{
+
     font-size: 20px;
     width: 25%;
     padding: 15px 0;
@@ -52,4 +53,21 @@ html{
     cursor: pointer;
     background-color: white;
     border: 1px solid grey;
+}
+
+.keypad-button:hover{
+    filter: brightness(80%);
+    transition: 0.25s;
+}
+
+.keypad-button.yellow{
+    background-color: yellow;
+}
+
+.keypad-button.large{
+    width: 50%;
+}
+
+.keypad-button.greyFormat{
+    background-color: grey;
 }
